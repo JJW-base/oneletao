@@ -30,7 +30,7 @@ a:active {
   line-height: 40px;
   font-size: 20px;
 }
-/*登陆首页*/
+/*首页*/
 .publi .lt_aside {
   width: 180px;
   height: 100%;
@@ -114,6 +114,7 @@ a:active {
   top: 0;
   right: 0;
   padding-left: 180px;
+  z-index: 2;
   transition: all 1s;
 }
 .publi .lt_main .lt_topbar a {
@@ -128,6 +129,10 @@ a:active {
 }
 .publi .lt_main .breadcrumb {
   margin-top: 20px;
+}
+.publi .lt_main .echarts_1,
+.publi .lt_main .echarts_2 {
+  height: 400px;
 }
 .publi .lt_main.hidemenu {
   padding-left: 0;

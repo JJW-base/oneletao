@@ -35,6 +35,7 @@
             </div>
         </div>
         <div class="lt_main">
+            <!-- 头部导航菜单 -->
             <div class="lt_topbar">
                 <a href="javascript:;" class="pull-left icon_menu">
                     <i class="glyphicon glyphicon-align-justify"></i>
@@ -43,12 +44,20 @@
                     <i class="glyphicon glyphicon-log-out"></i>
                 </a>
             </div>
+             <!-- 下面的内容 -->
             <div class="container-fluid">
-                    <ol class="breadcrumb">
-                            <li><a href="#">管理系统 </a></li>
-                            <li class="active">首页</li>
-                    </ol>
+                <!-- 路径导航 -->  
+                <ol class="breadcrumb">
+                        <li><a href="#">管理系统 </a></li>
+                        <li class="active">首页</li>
+                </ol>
+                <div class="lt_content">
+                    <div class="echarts_1 pull-left col-lg-6 col-sm-6"></div>
+                    <div class="echarts_2 pull-right col-lg-6 col-sm-6"></div>
+                </div>
+                    
             </div>
+
         </div>
         <!-- 模态框 -->
         <div class="modal fade" tabindex="-1"  id="myModal">
@@ -74,7 +83,9 @@
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
     <script src="./lib/nprogress/nprogress.js"></script>
+    <script src="./lib/echarts/echarts.min.js"></script>
     <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
    
 </body>
 </html>
